@@ -31,10 +31,11 @@ Angular supports two ways of making a component available to other components: a
 
 
  
-|Selector type	| Description | Examples
-|Type selector	| Matches elements based on their HTML tag name, or node name. |	profile-photo
-|Attribute selector	| Matches elements based on the presence of an HTML attribute and, optionally, an exact value for that attribute. | 	[dropzone] [type="reset"]
-| Class selector | Matches elements based on the presence of a CSS class. |	.menu-item
+| Selector type	| Description | Examples |
+| ----------- | ----------- |
+| Type selector	| Matches elements based on their HTML tag name, or node name. |	profile-photo |
+| Attribute selector	| Matches elements based on the presence of an HTML attribute and, optionally, an exact value for that attribute. | 	[dropzone] [type="reset"] |
+| Class selector | Matches elements based on the presence of a CSS class. |	.menu-item |
 
 ## pseudo-class
 
@@ -48,3 +49,20 @@ Angular supports two ways of making a component available to other components: a
 
 
 ---
+
+# Binding
+- text interpolations
+- property binding
+- event binding
+- two-way binding
+
+## text interpolations
+
+> Angular's Change Detection algorithm is responsible for keeping the view and the model in sync. Change detection is the process through which Angular checks to see whether your application state has changed, and if any DOM needs to be updated.
+> Angular walks your components from top to bottom, looking for changes.
+> Angular runs its change detection mechanism periodically so that changes to the data model are reflected in an application’s view.
+
+> Change detection can be triggered either manually or through an asynchronous event (for example, a user interaction or an XMLHttpRequest completion).
+## property binding
+
+ To bind to an element's property, enclose it in square brackets, [], which identifies the property as a target property.
