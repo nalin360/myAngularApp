@@ -1,0 +1,23 @@
+<div>
+    <!-- Interpolation refers to embedding expressions into marked up text. By default, interpolation uses the double curly braces {{ and }} as delimiters. -->
+    <p>My name is {{firstName}}</p>
+    <p>hi {{firstName + " " + LastName}}</p>
+
+    <p>using function {{greatings()}}</p>
+    
+    <!-- <p>{{ title }}</p> -->
+    <!-- <div><img alt="item" src="{{ itemImageUrl }}"></div> -->
+    <!-- Property binding -->
+    <!-- 
+        To bind to an element's property, enclose it in square brackets, [], which identifies the property as a target property.
+        
+     -->
+    <input id="" [disabled]="isDisabled" type="text" value="nalin">
+
+    <input id="" bind-disabled="isDisabled" type="text" value="nalin">
+<!-- example of event binding  -->
+    <button (click)="onClick()">on input</button> 
+    <h2 class="text-success">Codevolution</h2>
+    <h2 [class]="successClass">Codevolution</h2>
+    <!--         -->
+</div>
